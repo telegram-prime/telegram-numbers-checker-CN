@@ -18,6 +18,7 @@
  - 在单独的报告中将号码排序为有效和无效。
  - 在一次检查周期内限制每个账户检查的号码数量。
  - 在检查号码之前有选择地清除账户的电话簿。
+ - 用于大规模数据操作的关闭图形用户界面日志记录的选项。
  - 支持几乎所有已知的代理提供者，无论是HTTP格式还是SOCKS格式。
  - 将结果导出为TXT、CSV或XLSX格式。
  - 导出的数据：号码，登录名，Telegram ID。
@@ -46,14 +47,17 @@
 
 ## 截图:
 
-![NMCH_CN_002](https://github.com/telegram-prime/telegram-numbers-checker-CN/assets/94137664/93252131-47bb-446d-94a0-592ee86921cd)
+![image](https://github.com/telegram-prime/telegram-numbers-checker-CN/assets/94137664/e0445bcb-4a5a-4e38-b313-4d062fa6b8fa)
+
 
 
 ##  联系方式:
 - Email:    manager[@]telegramprime.net
-- Telegram: [Send message](https://telegramprime.com/telegram-contact)
-- ICQ:      [Send message](https://telegramprime.com/icq-contact)
-- TamTam:   [Send message](https://telegramprime.com/tamtam-contact)
+- Telegram: [Send message](https://telegramprime.net/telegram-contact)
+- ICQ:      [Send message](https://telegramprime.net/icq-contact)
+- TamTam:   [Send message](https://telegramprime.net/tamtam-contact)
+- Discord:  [Send message](https://telegramprime.net/discord-contact)
+- Element:  [Send message](https://telegramprime.net/element-contact)
 
 * 或通过我们Telegram PRIME网站上的联系表格：
 - Wеb: https://telegramprime.net/ - EN Version
