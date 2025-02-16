@@ -9,7 +9,7 @@
  - 检查号码是否有Telegram。
  - 多线程操作。
  - 能够在检查号码之间设置延迟。
- - 与TDATA、SESSION和SESSION+JSON账户一起工作。
+ - 适用于 TDATA 和 SESSION（Telethon 或 Pyrogram）以及 SESSION+JSON（Telethon 或 Pyrogram）账户。
  - 当账户文件夹中存在JSON文件时，会自动确定SESSION+JSON账户类型，并专门使用其参数连接到会话。
  - 高速号码检查（使用多个账户时）。
  - 过滤掉不工作或受限的账户。
@@ -21,7 +21,7 @@
  - 用于大规模数据操作的关闭图形用户界面日志记录的选项。
  - 支持几乎所有已知的代理提供者，无论是HTTP格式还是SOCKS格式。
  - 将结果导出为TXT、CSV或XLSX格式。
- - 导出的数据：号码，登录名，Telegram ID。
+ - 导出的数据：号码、登录名、Telegram ID、真实姓名、上次在线时间、高级、照片、生日、频道、故事、简历。
  - 能够在没有代理的情况下工作（对于勇敢的人 :)）
  - 在单独的文件中详细记录所有程序活动的日志（可以用作客户的报告）。
  - 硬件绑定，有通过经理重置密钥的选项。重置是免费的。
@@ -46,20 +46,18 @@
 
 
 ## 截图:
-
-![image](https://github.com/telegram-prime/telegram-numbers-checker-CN/assets/94137664/e0445bcb-4a5a-4e38-b313-4d062fa6b8fa)
-
+<img width="256" alt="NMCH_1 8_CN_001" src="https://github.com/user-attachments/assets/7e9df2bb-74b0-4474-baf1-2f4b78f28a02" />
+<img width="256" alt="NMCH_1 8_CN_002" src="https://github.com/user-attachments/assets/7bc7eb9e-dcdb-4634-8d0d-9118d5b0317d" />
 
 
 ##  联系方式:
 - Email:    manager[@]telegramprime.net
 - Telegram: [Send message](https://telegramprime.net/telegram-contact)
-- ICQ:      [Send message](https://telegramprime.net/icq-contact)
 - TamTam:   [Send message](https://telegramprime.net/tamtam-contact)
 - Discord:  [Send message](https://telegramprime.net/discord-contact)
 - Element:  [Send message](https://telegramprime.net/element-contact)
 
-* 或通过我们Telegram PRIME网站上的联系表格：
+* 或通过网站上的联系表：
 - Wеb: https://telegramprime.net/ - EN Version
 - Wеb: https://telegramprime.com/ - RU Version
 
