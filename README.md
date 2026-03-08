@@ -1,72 +1,75 @@
-# NMCH - 用于检查电话号码与Telegram的关联的检查器。
-## 对于那些寻找高质量方式在Telegram上聚集受众的人来说，这是一个不可或缺的工具。
-## 从各种来源收集您的电话号码数据库，并检查它们与Telegram的关联。
- 
- * Software description is also available in English. See [NMCH - TG Phone Numbers Checker EN](https://github.com/telegram-prime/telegram-numbers-checker)
- * Описание программы так же доступно на русском языке. См. [NMCH - TG Phone Numbers Checker RUS](https://github.com/telegram-prime/telegram-numbers-checker-RU)
+# NMCH – Telegram 手机号检查工具  
+**快速、精准、可扩展地检查手机号是否注册 Telegram**
 
-## 功能：
- - 检查号码是否有Telegram。
- - 多线程操作。
- - 能够在检查号码之间设置延迟。
- - 适用于 TDATA 和 SESSION（Telethon 或 Pyrogram）以及 SESSION+JSON（Telethon 或 Pyrogram）账户。
- - 选项可以在没有任何帐户的情况下检查号码，仅使用代理。这是为了检查天气号码是否使用TG注册，不会加载任何其他信息。
- - 当账户文件夹中存在JSON文件时，会自动确定SESSION+JSON账户类型，并专门使用其参数连接到会话。
- - 高速号码检查（使用多个账户时）。
- - 过滤掉不工作或受限的账户。
- - 多级账户洪水检查。
- - 从工作列表中排除坏的（被封禁的）账户。
- - 在单独的报告中将号码排序为有效和无效。
- - 在一次检查周期内限制每个账户检查的号码数量。
- - 在检查号码之前有选择地清除账户的电话簿。
- - 用于大规模数据操作的关闭图形用户界面日志记录的选项。
- - 支持几乎所有已知的代理提供者，无论是HTTP格式还是SOCKS格式。
- - 将结果导出为TXT、CSV或XLSX格式。
- - 报告帐户绩效（每个帐户已检查了多少个数字）。
- - 导出的数据：号码、登录名、Telegram ID、真实姓名、上次在线时间、高级、照片、生日、频道、故事、简历。
- - 能够在没有代理的情况下工作（对于勇敢的人 :)）
- - 在单独的文件中详细记录所有程序活动的日志（可以用作客户的报告）。
- - 硬件绑定，有通过经理重置密钥的选项。重置是免费的。
- - 免费更新。
- - 在线支持。
+2025–2026 年 Telegram 营销、受众采集和潜在客户生成的核心工具。  
+将任意来源的原始手机号数据库转化为高质量的 Telegram 目标用户。
 
 
-## 我们提供24小时的免费试用期，在此期间，用户将获得1,000个供测试的号码余额，以在购买前测试和确认系统的效率。
-### - 请求演示密钥的按钮位于软件内部。
+### 🌐 支持多语言
+- English – [English Page](https://github.com/telegram-prime/telegram-numbers-checker)  
+- Русский – [NMCH Checker RU](https://github.com/telegram-prime/telegram-numbers-checker-RU)  
+- 简体中文 – 本页面
 
-## 试用期结束后，此产品提供两种付费订阅方式：
- - 许可证：月订阅 - 可检查50,000个号码（以先到者为准）
- - 许可证：年订阅 - 一年内无限次数检查号码的访问权限。
+### ⚙️ 核心功能
+
+| 功能                                 | 描述                                                                        |
+|--------------------------------------|-----------------------------------------------------------------------------|
+| Telegram 注册检查                    | 判断手机号是否已在 Telegram 注册                                            |
+| 输入支持                             | 支持任意手机号列表（建议使用国际格式）                                      |
+| 支持账号类型                         | TDATA、SESSION (Telethon/Pyrogram)、SESSION+JSON（自动识别）                |
+| 无账号模式                           | 仅通过代理检查注册状态（不加载额外资料）                                    |
+| 多线程 & 高速度                      | 同时使用多个账号 → 超大规模处理能力                                         |
+| 代理支持                             | HTTP / SOCKS5 – 几乎所有代理商；支持每个线程独立代理                        |
+| 防洪 & 防封保护                      | 多级洪水控制，自动剔除受限/被封账号                                        |
+| 电话簿清理                           | 检查前可选择清空账号联系人（更安全、更干净）                                |
+| 单账号限额                           | 设置每个账号每轮检查的最大号码数量，避免触发限制                            |
+| 结果分类 & 报告                      | Valid / Invalid → 分别导出；支持 TXT、CSV、XLSX 格式                        |
+| 丰富导出数据                         | 手机号 • Telegram ID • 用户名 • 姓名 • 最后在线 • Premium • 头像 • 简介 • 生日 • 频道 • 故事 |
+| 账号性能报告                         | 每个账号检查了多少号码（按会话统计）                                        |
+| 按会话详细日志                       | 每轮操作完整日志独立保存 – 非常适合给客户做报告                             |
+| GUI 日志开关                         | 可关闭控制台日志，适合超大批量数据处理（加速运行）                          |
+| 无代理模式                           | 可不使用代理运行（适合测试/低风险场景）                                     |
+| 硬件绑定                             | 一台电脑一个密钥；硬件更换时可免费通过经理重置                              |
+| 终身免费更新                         | 定期优化 & Telegram 层级兼容性更新                                          |
+| 在线支持                             | 开发者直接快速响应                                                          |
+
+### ⏱️ 免费试用
+- 24 小时完整访问权限  
+- 包含 1,000 个号码检查额度用于测试  
+无需信用卡 – 软件内直接请求 demo 密钥
+
+### 💳 订阅计划
+
+| 套餐          | 限额                                | 有效期                    |
+|---------------|-------------------------------------|---------------------------|
+| Monthly       | 50,000 个号码检查                   | 30 天（或先达限额）       |
+| Annual        | 无限制号码检查                      | 365 天                    |
+
+### 📥 下载
+**始终获取最新版本** → [GitHub Releases](https://github.com/telegram-prime/telegram-numbers-checker-CN/releases/latest)
+
+### 🎬 视频教程
+[在 YouTube 上观看](https://youtu.be/3Zr69rco5Z0)
+
+### 🖼️ 截图
+
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/2518769d-feed-4a2b-b387-be9ed8fb5fe9" />
 
 
-## 下载:
- - [始终使用最新版本](https://github.com/telegram-prime/telegram-numbers-checker-CN/releases/latest)
+### 📬 联系方式与支持
 
+| 渠道        | 链接                                                        |
+|-------------|-------------------------------------------------------------|
+| Email       | manager[@]telegramprime.net                                 |
+| Telegram    | [发送消息](https://telegramprime.net/telegram-contact)      |
+| Discord     | [发送消息](https://telegramprime.net/discord-contact)       |
+| Element     | [发送消息](https://telegramprime.net/element-contact)       |
+| 网站 (EN)   | https://telegramprime.net/                                  |
+| 网站 (RU)   | https://telegramprime.com/                                  |
 
-## 视频指南
- - [YouTube](https://youtu.be/3Zr69rco5Z0)
+（或通过网站联系表单）
 
-
-## 截图:
-<img width="256" alt="NMCH_2_1_CN_001" src="https://github.com/user-attachments/assets/d952a97d-3ef8-480b-9038-41de25608ac5" />
-<img width="256" alt="NMCH_2_1_CN_002" src="https://github.com/user-attachments/assets/1f106363-b555-4516-9587-62f97c17eb9f" />
-<img width="256" alt="NMCH_2_1_CN_003" src="https://github.com/user-attachments/assets/54f9a294-db64-4cfc-a59e-1bba03880e2d" />
-
-
-##  联系方式:
-- Email:    manager[@]telegramprime.net
-- Telegram: [Send message](https://telegramprime.net/telegram-contact)
-- TamTam:   [Send message](https://telegramprime.net/tamtam-contact)
-- Discord:  [Send message](https://telegramprime.net/discord-contact)
-- Matrix:  [Send message](https://telegramprime.net/element-contact)
-
-* 或通过网站上的联系表：
-- Wеb: https://telegramprime.net/ - EN Version
-- Wеb: https://telegramprime.com/ - RU Version
-
-
-## 捐赠:
-* [给我们买杯咖啡 :)](https://nowpayments.io/donation/telegramprime)
-* 谢谢！
-
+### ☕ 支持项目
+如果 NMCH 帮您构建更优质的受众 – 不妨请我们喝杯咖啡 😄  
+[通过 NowPayments 捐助](https://nowpayments.io/donation/telegramprime)
 
