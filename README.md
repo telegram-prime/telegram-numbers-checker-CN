@@ -46,7 +46,7 @@
 | Annual        | 无限制号码检查                      | 365 天                    |
 
 ### 📥 下载
-**始终获取最新版本** → [GitHub Releases](https://github.com/telegram-prime/telegram-numbers-checker-CN/releases/latest)
+**始终获取最新版本** → [Website](https://telegram-checker.com/downloads/nmch/сn/latest)
 
 ### 🎬 视频教程
 [在 YouTube 上观看](https://youtu.be/3Zr69rco5Z0)
@@ -60,12 +60,11 @@
 
 | 渠道        | 链接                                                        |
 |-------------|-------------------------------------------------------------|
-| Email       | manager[@]telegramprime.net                                 |
-| Telegram    | [发送消息](https://telegramprime.net/telegram-contact)      |
-| Discord     | [发送消息](https://telegramprime.net/discord-contact)       |
-| Element     | [发送消息](https://telegramprime.net/element-contact)       |
-| 网站 (EN)   | https://telegramprime.net/                                  |
-| 网站 (RU)   | https://telegramprime.com/                                  |
+| Email       | manager[@]telegram-checker.com                                 |
+| Telegram    | [发送消息](https://telegram-checker.com/telegram-contact)      |
+| Discord     | [发送消息](https://telegram-checker.com/discord-contact)       |
+| Element     | [发送消息](https://telegram-checker.com/element-contact)       |
+| 网站        | https://telegram-checker.com/                                  |
 
 （或通过网站联系表单）
 
